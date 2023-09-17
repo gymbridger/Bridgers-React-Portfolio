@@ -1,0 +1,53 @@
+/* make container flex */
+/* justify content moves the items to the center */
+.footerContainer {
+  background-color: #00356b;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  padding: 1rem;
+}
+
+/* pointer to indicate its clickable */
+/* margin left and right of images */
+.imageLink {
+  cursor: pointer;
+  margin: 0 2rem;
+}
+
+.imageLink:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.imageLink img {
+  max-width: 100%;
+  height: auto;
+  /* brightness: 0 sets the image to black */
+  /* invert: 1 fully invert color of image to white*/
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 280px) {
+  .imageLink img {
+    width: 50px;
+  }
+}
+
+@media (min-width: 281px) and (max-width: 480px) {
+  .imageLink img {
+    width: 60px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+  .imageLink img {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imageLink img {
+    width: 80px;
+  }
+}

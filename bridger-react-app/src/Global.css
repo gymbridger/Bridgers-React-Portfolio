@@ -1,0 +1,29 @@
+/* this resets all margin and padding, and is set the border-box so it will account for any changes made  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* set the height of the html and body to 100% */
+/* overflow-x: this prevents horizontal scrolling */
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* set the root to display flex so any child will have flex properties */
+/* flex-column will make the child components vertical of eachother */
+/* min-height sets the viewport to the whole page */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #00356b;
+}
+
+.NavLink,
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

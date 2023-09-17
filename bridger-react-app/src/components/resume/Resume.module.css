@@ -1,0 +1,57 @@
+.resumeContainer {
+  background-color: #00356b;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumeHeader {
+  color: white;
+
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.resumeLink {
+  color: white;
+  font-weight: bold;
+}
+
+.resumeLink a:link {
+  text-decoration: underline;
+  margin-left: 1rem;
+}
+
+.resumeLink a:visited {
+  color: white;
+}
+
+.resumeSubHeader {
+  color: white;
+}
+
+.resumeUl {
+  color: white;
+  margin-top: 2rem;
+}
+
+.resumeUl li {
+  list-style-type: circle;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.resumeSections {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 280px) {
+  .resumeContainer {
+    padding: 2rem;
+    justify-content: center;
+  }
+}

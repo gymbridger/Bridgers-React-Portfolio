@@ -1,0 +1,124 @@
+.aboutMeImage {
+  width: 8vw;
+  border-radius: 50%;
+  border: 3px solid black;
+  justify-content: center;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  background-color: #00356b;
+  align-items: center;
+}
+
+.aboutMeHeader {
+  color: white;
+}
+
+.aboutMeText {
+  color: white;
+  text-align: justify;
+  max-width: 800px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 280px) {
+  .aboutMeContainer {
+    padding: 2rem;
+  }
+  .aboutMeImage {
+    width: 35vw;
+  }
+  .aboutMeText {
+    line-height: 2rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .aboutMeContainer {
+    padding: 2rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 1rem;
+  }
+  .aboutMeImage {
+    width: 35vw;
+  }
+  .aboutMeText {
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .aboutMeContainer {
+    padding: 2rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 1rem;
+  }
+  .aboutMeImage {
+    width: 35vw;
+  }
+  .aboutMeText {
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .aboutMeContainer {
+    padding: 2rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 1rem;
+  }
+  .aboutMeImage {
+    width: 20vw;
+  }
+  .aboutMeText {
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .aboutMeText {
+    line-height: 3rem;
+    font-size: 1.5rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 2rem;
+  }
+  .aboutMeImage {
+    width: 20vw;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .aboutMeText {
+    line-height: 3rem;
+    font-size: 1.25rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 1rem;
+  }
+  .aboutMeImage {
+    width: 15vw;
+  }
+}
+
+@media (min-width: 1501px) {
+  .aboutMeText {
+    line-height: 3rem;
+    font-size: 1.5rem;
+  }
+  .aboutMeHeader {
+    margin-bottom: 2rem;
+  }
+  .aboutMeImage {
+    width: 10vw;
+  }
+}

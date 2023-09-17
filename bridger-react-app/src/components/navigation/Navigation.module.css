@@ -1,0 +1,79 @@
+.navContainer {
+  display: flex;
+}
+
+.NavLink {
+  padding: 0 3rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 280px) {
+  .NavLink {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .navContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .NavLink {
+    font-size: 1.25rem;
+    padding-top: 1rem;
+  }
+  .navContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 479px) {
+  .NavLink {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  .navContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .NavLink {
+    font-size: 1.75rem;
+    padding-top: 1.5rem;
+  }
+  .navContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .NavLink {
+    font-size: 1.75rem;
+  }
+  .navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+  .NavLink {
+    font-size: 2rem;
+  }
+  .navContainer {
+    align-items: center;
+  }
+}
+
+.activeNavLink.active {
+  color: #ff0000;
+}
