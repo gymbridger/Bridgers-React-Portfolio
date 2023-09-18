@@ -9,7 +9,7 @@ This repository contains the code for a React Portfolio, a web application built
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
+- [Credits](#credits)
 - [License](#license)
 
 ## Installation
