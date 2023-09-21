@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Bridgers-React-Portfolio1/static/css/main.f5768528.css",
-    "main.js": "/Bridgers-React-Portfolio1/static/js/main.b462e0eb.js",
-    "static/js/787.5e1cb6a4.chunk.js": "/Bridgers-React-Portfolio1/static/js/787.5e1cb6a4.chunk.js",
-    "static/media/portfolio6.jpg": "/Bridgers-React-Portfolio1/static/media/portfolio6.a42374ee84e7a00320ef.jpg",
-    "static/media/portfolio5.jpg": "/Bridgers-React-Portfolio1/static/media/portfolio5.4295e9eda0f779521eed.jpg",
-    "static/media/headerBackground.jpg": "/Bridgers-React-Portfolio1/static/media/headerBackground.9d6691fc3b165fce4590.jpg",
-    "static/media/portfolio1.jpg": "/Bridgers-React-Portfolio1/static/media/portfolio1.f5c9aef6af24fb4a6b6b.jpg",
-    "static/media/ProfileImage.jpg": "/Bridgers-React-Portfolio1/static/media/ProfileImage.0fda1da73fea8fef9989.jpg",
-    "static/media/portfolio3.jpg": "/Bridgers-React-Portfolio1/static/media/portfolio3.0d01e763ae1bac5399d6.jpg",
-    "static/media/portfolio2.jpg": "/Bridgers-React-Portfolio1/static/media/portfolio2.17e0821b9cf6c06aaf68.jpg",
-    "static/media/myResume.pdf": "/Bridgers-React-Portfolio1/static/media/myResume.cb0190f3750e5231e50c.pdf",
-    "static/media/portfolio4.jpg": "/Bridgers-React-Portfolio1/static/media/portfolio4.dd3dafac3196fd17f968.jpg",
-    "index.html": "/Bridgers-React-Portfolio1/index.html",
-    "main.f5768528.css.map": "/Bridgers-React-Portfolio1/static/css/main.f5768528.css.map",
-    "main.b462e0eb.js.map": "/Bridgers-React-Portfolio1/static/js/main.b462e0eb.js.map",
-    "787.5e1cb6a4.chunk.js.map": "/Bridgers-React-Portfolio1/static/js/787.5e1cb6a4.chunk.js.map"
+    "main.css": "/Bridgers-React-Portfolio/static/css/main.f8a6915d.css",
+    "main.js": "/Bridgers-React-Portfolio/static/js/main.4c10b1ff.js",
+    "static/js/787.d8a840be.chunk.js": "/Bridgers-React-Portfolio/static/js/787.d8a840be.chunk.js",
+    "static/media/portfolio6.jpg": "/Bridgers-React-Portfolio/static/media/portfolio6.a42374ee84e7a00320ef.jpg",
+    "static/media/portfolio5.jpg": "/Bridgers-React-Portfolio/static/media/portfolio5.4295e9eda0f779521eed.jpg",
+    "static/media/headerBackground.jpg": "/Bridgers-React-Portfolio/static/media/headerBackground.9d6691fc3b165fce4590.jpg",
+    "static/media/portfolio1.jpg": "/Bridgers-React-Portfolio/static/media/portfolio1.f5c9aef6af24fb4a6b6b.jpg",
+    "static/media/ProfileImage.jpg": "/Bridgers-React-Portfolio/static/media/ProfileImage.0fda1da73fea8fef9989.jpg",
+    "static/media/portfolio3.jpg": "/Bridgers-React-Portfolio/static/media/portfolio3.0d01e763ae1bac5399d6.jpg",
+    "static/media/portfolio2.jpg": "/Bridgers-React-Portfolio/static/media/portfolio2.17e0821b9cf6c06aaf68.jpg",
+    "static/media/myResume.pdf": "/Bridgers-React-Portfolio/static/media/myResume.cb0190f3750e5231e50c.pdf",
+    "static/media/portfolio4.jpg": "/Bridgers-React-Portfolio/static/media/portfolio4.dd3dafac3196fd17f968.jpg",
+    "index.html": "/Bridgers-React-Portfolio/index.html",
+    "main.f8a6915d.css.map": "/Bridgers-React-Portfolio/static/css/main.f8a6915d.css.map",
+    "main.4c10b1ff.js.map": "/Bridgers-React-Portfolio/static/js/main.4c10b1ff.js.map",
+    "787.d8a840be.chunk.js.map": "/Bridgers-React-Portfolio/static/js/787.d8a840be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5768528.css",
-    "static/js/main.b462e0eb.js"
+    "static/css/main.f8a6915d.css",
+    "static/js/main.4c10b1ff.js"
   ]
 }
