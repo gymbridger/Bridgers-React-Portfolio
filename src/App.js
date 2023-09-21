@@ -14,7 +14,7 @@ function App() {
       <Header />
       <div style={{ flexGrow: 1 }}>
         <Routes>
-          <Route exact path="/" element={<AboutMe />} />
+          <Route path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
